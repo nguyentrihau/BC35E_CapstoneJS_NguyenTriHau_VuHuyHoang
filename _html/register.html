@@ -10,7 +10,62 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      
+      <header></header>
+      <section class="register">
+        <div class="container">
+          <div class="register_title">
+            <h2 class="text-center">Register</h2>
+            <div class="row">
+              <div class="col-6 form-left">
+                <div class="form-group row">
+                  <label for="email" class="col-sm-2">Email</label>
+                  <input type="text" placeholder="@email.com" class=" col-sm-9" id="email">
+                  <small class="col-sm-1">(*)</small>
+                  <div class="errorEmail"></div>
+                </div>
+                <div class="form-group row">
+                  <label for="password" class="col-sm-5">Password</label>
+                  <input type="password" placeholder="Password" class="col-6" id="password">
+                  <small class="col-1">(*)</small>
+                  <div class="errorPassword"></div>
+                </div>
+                <div class="form-group row">
+                  <label for="" class="col-sm-5">Password confirm</label>
+                  <input type="password" placeholder="Password confirm" class="col-6" id="rePassword">
+                  <small class="col-1">(*)</small>
+                  <div class="errorRePassword"></div>
+                </div>
+              </div>
+              <div class="col-6 form-right">
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2">Name</label>
+                  <input type="text" placeholder="name" class="col-sm-9" id="name">
+                  <small class="col-sm-1">(*)</small>
+                  <div class="errorName"></div>
+                </div>
+                <div class="form-group row">
+                  <label for="phone" class="col-sm-2">Phone</label>
+                  <input type="number" placeholder="phone" class="col-sm-9" id="phone">
+                  <small class="col-1">(*)</small>
+                  <div class="errorPhone"></div>
+                </div>
+                <div class="form-group row d-flex ml-1">
+                  <div class="gender">Gender</div>
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Checked</label>
+                  </div>
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Unchecked</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
