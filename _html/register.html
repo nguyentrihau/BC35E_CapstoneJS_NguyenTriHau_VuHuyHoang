@@ -20,47 +20,49 @@
                 <div class="form-group row">
                   <label for="email" class="col-sm-2">Email</label>
                   <input type="text" placeholder="@email.com" class=" col-sm-9" id="email">
-                  <small class="col-sm-1">(*)</small>
-                  <div class="errorEmail"></div>
+                  <small class="col-sm-1 text-danger">(*)</small>
+                  <div class="text-danger pl-5 ml-5" id="errorEmail"></div>
                 </div>
                 <div class="form-group row">
                   <label for="password" class="col-sm-5">Password</label>
                   <input type="password" placeholder="Password" class="col-6" id="password">
-                  <small class="col-1">(*)</small>
-                  <div class="errorPassword"></div>
+                  <small class="col-sm-1 text-danger">(*)</small>
+                  <div class="text-danger pl-5 ml-5" id="errorPassword" ></div>
                 </div>
                 <div class="form-group row">
-                  <label for="" class="col-sm-5">Password confirm</label>
+                  <label for="rePassword" class="col-sm-5">Password confirm</label>
                   <input type="password" placeholder="Password confirm" class="col-6" id="rePassword">
-                  <small class="col-1">(*)</small>
-                  <div class="errorRePassword"></div>
+                  <small class="col-sm-1 text-danger">(*)</small>
+                  <div class="text-danger pl-5 ml-5" id="errorRePassword"></div>
                 </div>
               </div>
               <div class="col-6 form-right">
                 <div class="form-group row">
                   <label for="name" class="col-sm-2">Name</label>
                   <input type="text" placeholder="name" class="col-sm-9" id="name">
-                  <small class="col-sm-1">(*)</small>
-                  <div class="errorName"></div>
+                  <small class="col-sm-1 text-danger">(*)</small>
+                  <div class="text-danger pl-5 ml-5" id="errorName"></div>
                 </div>
                 <div class="form-group row">
                   <label for="phone" class="col-sm-2">Phone</label>
-                  <input type="number" placeholder="phone" class="col-sm-9" id="phone">
-                  <small class="col-1">(*)</small>
-                  <div class="errorPhone"></div>
+                  <input type="text" placeholder="01234567890" class="col-sm-9" id="phone">
+                  <small class="col-sm-1 text-danger">(*)</small>
+                  <div class="text-danger pl-5 ml-5" id="errorPhone"></div>
                 </div>
                 <div class="form-group row d-flex ml-1">
                   <div class="gender">Gender</div>
                   <div class="radio">
-                    <input id="radio-1" name="radio" type="radio" checked>
-                    <label for="radio-1" class="radio-label">Checked</label>
+                    <input id="radio-1" name="radio" type="radio" value="true" checked="checked">
+                    <label for="radio-1" class="radio-label">Male</label>
                   </div>
                   <div class="radio">
-                    <input id="radio-2" name="radio" type="radio">
-                    <label  for="radio-2" class="radio-label">Unchecked</label>
+                    <input id="radio-2" name="radio" type="radio" value="false">
+                    <label  for="radio-2" class="radio-label">Female</label>
                   </div>
+                  <div class="text-danger pl-5 ml-5" id="erroGender"></div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" onclick="taoTaiKhoan()" id="btnTaoTK">Submit</button>
+                
               </div>
             </div>
           </div>
@@ -72,6 +74,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/model/Register.js"></script>
+    <script src="../js/model/validationRegister.js"></script>
     <script src="../js/register.js"></script>
   </body>
 </html>
