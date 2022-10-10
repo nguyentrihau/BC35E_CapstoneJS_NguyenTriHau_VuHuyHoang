@@ -35,41 +35,45 @@
             border: none;
 
             .left {
-<<<<<<< HEAD
-                
+
+
                 a {
                     @include text ($fs1, $fw2, $color1, $lh6);
                     text-decoration: none;
                     transition: all 1s;
-                    
-                }
-                &:hover{
-                    a{@include text ($fs2, $fw2, $color1, $lh6);}
-=======
-                a {
-                    @include text ($fs1, $fw2, $color1, $lh6);
-                    text-decoration: none;
->>>>>>> origin
+
                 }
 
-                width: 53%;
-                text-align: center;
-                height: 64px;
-                background-color: $color10;
+                &:hover {
+                    a {
+                        @include text ($fs2, $fw2, $color1, $lh6);
+                    }
+
+                    a {
+                        @include text ($fs1, $fw2, $color1, $lh6);
+                        text-decoration: none;
+
+                    }
+
+                    width: 53%;
+                    text-align: center;
+                    height: 64px;
+                    background-color: $color10;
+                }
+
+                .right {
+                    p {
+                        @include text ($fs1, $fw6, $color1, $lh6);
+                        margin-bottom: 0;
+                    }
+
+                    width: 47%;
+                    text-align: center;
+                    height: 64px;
+                    background-color: $color9;
+                }
+
             }
-
-            .right {
-                p {
-                    @include text ($fs1, $fw6, $color1, $lh6);
-                    margin-bottom: 0;
-                }
-
-                width: 47%;
-                text-align: center;
-                height: 64px;
-                background-color: $color9;
-            }
-
         }
     }
 }
