@@ -1,1 +1,195 @@
-/*# sourceMappingURL=index.css.map */
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+
+header .header__top {
+  background-color: #000000;
+}
+header .header__top li {
+  list-style: none;
+  padding-left: 20px;
+}
+header .header__top li img {
+  vertical-align: text-bottom;
+}
+header .header__top li span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #FFFFFF !important;
+  line-height: 36px;
+}
+header .header__top li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF !important;
+  line-height: 19px;
+}
+header .nav-link {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7) !important;
+  line-height: 24.2px;
+}
+header .nav-link.active {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 24.2px;
+}
+header .nav-link.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  left: 22px;
+  top: 50px;
+  background: #030303;
+  border: 1px solid #000000;
+}
+header .nav-link.disabled {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 24.2px;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  background: transparent;
+  border: none;
+}
+.carousel .carousel-control-prev .polygon-1,
+.carousel .carousel-control-next .polygon-1 {
+  position: absolute;
+  left: 40px;
+  top: 165px;
+}
+.carousel .carousel-control-prev .polygon-2,
+.carousel .carousel-control-next .polygon-2 {
+  position: absolute;
+  right: 40px;
+  top: 165px;
+}
+.carousel .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  margin-right: 23px;
+  margin-bottom: 72px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+}
+.carousel .carousel-item.active {
+  height: 530px;
+  background-image: url("/images/image 6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.1s;
+}
+.carousel .carousel-item.active .carousel__left {
+  width: 70%;
+}
+.carousel .carousel-item.active .carousel__left img {
+  margin-left: 122px;
+  margin-bottom: 120px;
+}
+.carousel .carousel-item.active .carousel__right {
+  width: 30%;
+  padding-bottom: 120px;
+}
+.carousel .carousel-item.active .carousel__right h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 48.41px;
+}
+.carousel .carousel-item.active .carousel__right p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 24.2px;
+  margin-bottom: 35px;
+}
+.carousel .carousel-item.active .carousel__right a {
+  font-size: 20px;
+  font-weight: 300;
+  color: #FFFFFF !important;
+  line-height: 24.2px;
+  text-decoration: none;
+  padding: 13px 35px 13px 35px;
+  background-color: #F8B653;
+}
+.carousel .carousel-item {
+  transition: transform 0.8s ease;
+}
+
+.product {
+  padding-top: 46px;
+}
+.product .title {
+  text-align: center;
+  padding-bottom: 81px;
+}
+.product .title p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 48.41px;
+}
+.product .card img {
+  width: 100%;
+  padding: 45px 57px 10px 57px;
+}
+.product .card .card-body {
+  padding-bottom: 13px;
+}
+.product .card .card-body h5 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 29px;
+  margin-bottom: 8px;
+}
+.product .card .card-body p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #CBC9C9 !important;
+  line-height: 24.2px;
+}
+.product .card .card-footer {
+  border: none;
+}
+.product .card .card-footer .left {
+  width: 53%;
+  text-align: center;
+  height: 64px;
+  background-color: #E1B067;
+}
+.product .card .card-footer .left a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 64px;
+  text-decoration: none;
+}
+.product .card .card-footer .right {
+  width: 47%;
+  text-align: center;
+  height: 64px;
+  background-color: #DEDDDC;
+}
+.product .card .card-footer .right p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000 !important;
+  line-height: 64px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=index.css.map */

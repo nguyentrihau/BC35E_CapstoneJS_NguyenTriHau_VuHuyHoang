@@ -1,0 +1,50 @@
+header {
+
+    .header__top {
+        background-color: $color1;
+
+        li {
+            list-style: none;
+            padding-left: 20px;
+
+            img {
+                vertical-align: text-bottom;
+            }
+
+            span {
+                @include text($fs4, $fw3, $color3, $lh3);
+            }
+
+            a {
+                text-decoration: none;
+                @include text($fs1, $fw3, $color3, $lh2);
+            }
+        }
+    }
+
+    .nav-link {
+        @include text($fs1, $fw3, $color2, $lh1);
+
+        &.active {
+            @include text($fs2, $fw3, $color1, $lh1);
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 60px;
+                height: 1px;
+                left: 22px;
+                top: 50px;
+                background: $color7;
+                border: 1px solid $color1;
+            }
+        }
+
+        &.disabled {
+            @include text($fs1, $fw3, $color1, $lh1);
+
+        }
+
+    }
+}
