@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-=======
->>>>>>> origin
 html,
 body {
   font-family: "Inter", sans-serif;
@@ -23,46 +20,47 @@ header .header__top li {
 header .header__top li img {
   vertical-align: text-bottom;
 }
-<<<<<<< HEAD
 header .header__top li img:hover {
   width: 35px;
   height: 35px;
 }
-=======
->>>>>>> origin
-header .header__top li span {
+header .header__top li img li {
+  list-style: none;
+  padding-left: 20px;
+}
+header .header__top li img li img {
+  vertical-align: text-bottom;
+}
+header .header__top li img li span {
   font-size: 30px;
   font-weight: 300;
   color: #FFFFFF !important;
   line-height: 36px;
 }
-header .header__top li a {
+header .header__top li img li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 300;
   color: #FFFFFF !important;
   line-height: 19px;
-<<<<<<< HEAD
   transition: all 0.6s;
 }
-header .header__top li:hover a {
+header .header__top li img li:hover a {
   color: yellow !important;
-=======
->>>>>>> origin
 }
-header .nav-link {
+header .header__top .nav-link {
   font-size: 16px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.7) !important;
   line-height: 24.2px;
 }
-header .nav-link.active {
+header .header__top .nav-link.active {
   font-size: 20px;
   font-weight: 300;
   color: #000000 !important;
   line-height: 24.2px;
 }
-header .nav-link.active::after {
+header .header__top .nav-link.active::after {
   content: "";
   display: block;
   position: absolute;
@@ -73,7 +71,7 @@ header .nav-link.active::after {
   background: #030303;
   border: 1px solid #000000;
 }
-header .nav-link.disabled {
+header .header__top .nav-link.disabled {
   font-size: 16px;
   font-weight: 300;
   color: #000000 !important;
@@ -149,7 +147,6 @@ header .nav-link.disabled {
   text-decoration: none;
   padding: 13px 35px 13px 35px;
   background-color: #F8B653;
-<<<<<<< HEAD
   transition: all 1s;
 }
 .carousel .carousel-item.active .carousel__right a:hover {
@@ -157,8 +154,6 @@ header .nav-link.disabled {
   font-weight: 300;
   color: #FFFFFF !important;
   line-height: 24.2px;
-=======
->>>>>>> origin
 }
 .carousel .carousel-item {
   transition: transform 0.8s ease;
@@ -200,42 +195,45 @@ header .nav-link.disabled {
 .product .card .card-footer {
   border: none;
 }
-.product .card .card-footer .left {
-  width: 53%;
-  text-align: center;
-  height: 64px;
-  background-color: #E1B067;
-}
 .product .card .card-footer .left a {
   font-size: 16px;
   font-weight: 200;
   color: #000000 !important;
   line-height: 64px;
   text-decoration: none;
-<<<<<<< HEAD
   transition: all 1s;
+}
+.product .card .card-footer .left:hover {
+  width: 53%;
+  text-align: center;
+  height: 64px;
+  background-color: #E1B067;
 }
 .product .card .card-footer .left:hover a {
   font-size: 20px;
   font-weight: 200;
   color: #000000 !important;
   line-height: 64px;
-=======
->>>>>>> origin
 }
-.product .card .card-footer .right {
+.product .card .card-footer .left:hover a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 64px;
+  text-decoration: none;
+}
+.product .card .card-footer .left .right {
   width: 47%;
   text-align: center;
   height: 64px;
   background-color: #DEDDDC;
 }
-.product .card .card-footer .right p {
+.product .card .card-footer .left .right p {
   font-size: 16px;
   font-weight: 600;
   color: #000000 !important;
   line-height: 64px;
   margin-bottom: 0;
-<<<<<<< HEAD
 }
 
 footer .footer_top {
@@ -272,6 +270,80 @@ footer .container .footer_learn, footer .container .footer_search, footer .conta
 }
 footer .container .footer_learn:hover, footer .container .footer_search:hover, footer .container .footer_view:hover, footer .container .footer_sign:hover {
   font-size: 17px;
-=======
->>>>>>> origin
+}
+.product {
+  padding-top: 46px;
+}
+.product .title {
+  text-align: center;
+  padding-bottom: 81px;
+}
+.product .title p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 48.41px;
+}
+.product .card img {
+  width: 100%;
+  padding: 45px 57px 10px 57px;
+}
+.product .card .card-body {
+  padding-bottom: 13px;
+}
+.product .card .card-body h5 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000 !important;
+  line-height: 29px;
+  margin-bottom: 8px;
+}
+.product .card .card-body p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #CBC9C9 !important;
+  line-height: 24.2px;
+}
+.product .card .card-footer {
+  border: none;
+}
+.product .card .card-footer .left a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 64px;
+  text-decoration: none;
+  transition: all 1s;
+}
+.product .card .card-footer .left:hover {
+  width: 53%;
+  text-align: center;
+  height: 64px;
+  background-color: #E1B067;
+}
+.product .card .card-footer .left:hover a {
+  font-size: 20px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 64px;
+}
+.product .card .card-footer .left:hover a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #000000 !important;
+  line-height: 64px;
+  text-decoration: none;
+}
+.product .card .card-footer .left .right {
+  width: 47%;
+  text-align: center;
+  height: 64px;
+  background-color: #DEDDDC;
+}
+.product .card .card-footer .left .right p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000 !important;
+  line-height: 64px;
+  margin-bottom: 0;
 }/*# sourceMappingURL=index.css.map */
