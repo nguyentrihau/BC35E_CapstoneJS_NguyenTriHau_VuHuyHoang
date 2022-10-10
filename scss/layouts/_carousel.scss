@@ -73,10 +73,13 @@
                 text-decoration: none;
                 padding: 13px 35px 13px 35px;
                 background-color: $color8;
+<<<<<<< HEAD
                 transition: all 1s;
                 &:hover{
                     @include text ($fs3, $fw3, $color3, $lh1);
                 }
+=======
+>>>>>>> origin
             }
 
         }

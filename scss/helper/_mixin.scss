@@ -6,6 +6,7 @@
 
     color: $color  !important;
     line-height: $lh;
+<<<<<<< HEAD
 }
 @mixin wh($width,$height){
     width: $width;
@@ -21,4 +22,6 @@
     top: 40px;
     background: $color7 !important;
     border: 1px solid $color1;
+=======
+>>>>>>> origin
 }
