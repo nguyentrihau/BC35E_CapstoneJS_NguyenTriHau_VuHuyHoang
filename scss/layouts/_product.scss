@@ -35,9 +35,21 @@
             border: none;
 
             .left {
+<<<<<<< HEAD
+                
                 a {
                     @include text ($fs1, $fw2, $color1, $lh6);
                     text-decoration: none;
+                    transition: all 1s;
+                    
+                }
+                &:hover{
+                    a{@include text ($fs2, $fw2, $color1, $lh6);}
+=======
+                a {
+                    @include text ($fs1, $fw2, $color1, $lh6);
+                    text-decoration: none;
+>>>>>>> origin
                 }
 
                 width: 53%;
