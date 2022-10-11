@@ -1,7 +1,9 @@
 function domID(id){return document.getElementById(id)};
 var validation = new Validation();
 
-function taoTaiKhoan(){
+domID("btnTaoTK").onclick = function(event){
+    //chan su kien loadbrowser
+    event.preventDefault();
     //lay gia tri nguoi dung nhap
     var register = new Register();
     register.email = domID("email").value;
