@@ -159,6 +159,7 @@ header .nav-link.disabled {
   width: 175px;
   height: 64px;
   background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+  border: none;
 }
 .carousel_detail .product_name .row {
   margin-left: -50px;
