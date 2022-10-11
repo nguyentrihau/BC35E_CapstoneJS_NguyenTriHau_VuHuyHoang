@@ -24,20 +24,13 @@ header .header__top li img:hover {
   width: 35px;
   height: 35px;
 }
-header .header__top li img li {
-  list-style: none;
-  padding-left: 20px;
-}
-header .header__top li img li img {
-  vertical-align: text-bottom;
-}
-header .header__top li img li span {
+header .header__top li span {
   font-size: 30px;
   font-weight: 300;
   color: #FFFFFF !important;
   line-height: 36px;
 }
-header .header__top li img li a {
+header .header__top li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 300;
@@ -45,22 +38,22 @@ header .header__top li img li a {
   line-height: 19px;
   transition: all 0.6s;
 }
-header .header__top li img li:hover a {
+header .header__top li:hover a {
   color: yellow !important;
 }
-header .header__top .nav-link {
+header .nav-link {
   font-size: 16px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.7) !important;
   line-height: 24.2px;
 }
-header .header__top .nav-link.active {
+header .nav-link.active {
   font-size: 20px;
   font-weight: 300;
   color: #000000 !important;
   line-height: 24.2px;
 }
-header .header__top .nav-link.active::after {
+header .nav-link.active::after {
   content: "";
   display: block;
   position: absolute;
@@ -71,7 +64,7 @@ header .header__top .nav-link.active::after {
   background: #030303;
   border: 1px solid #000000;
 }
-header .header__top .nav-link.disabled {
+header .nav-link.disabled {
   font-size: 16px;
   font-weight: 300;
   color: #000000 !important;
@@ -207,6 +200,12 @@ header .header__top .nav-link.disabled {
 .product .card .card-footer {
   border: none;
 }
+.product .card .card-footer .left {
+  width: 53%;
+  text-align: center;
+  height: 64px;
+  background-color: #E1B067;
+}
 .product .card .card-footer .left a {
   font-size: 16px;
   font-weight: 200;
@@ -215,32 +214,19 @@ header .header__top .nav-link.disabled {
   text-decoration: none;
   transition: all 1s;
 }
-.product .card .card-footer .left:hover {
-  width: 53%;
-  text-align: center;
-  height: 64px;
-  background-color: #E1B067;
-}
 .product .card .card-footer .left:hover a {
   font-size: 20px;
   font-weight: 200;
   color: #000000 !important;
   line-height: 64px;
 }
-.product .card .card-footer .left:hover a {
-  font-size: 16px;
-  font-weight: 200;
-  color: #000000 !important;
-  line-height: 64px;
-  text-decoration: none;
-}
-.product .card .card-footer .left .right {
+.product .card .card-footer .right {
   width: 47%;
   text-align: center;
   height: 64px;
   background-color: #DEDDDC;
 }
-.product .card .card-footer .left .right p {
+.product .card .card-footer .right p {
   font-size: 16px;
   font-weight: 600;
   color: #000000 !important;
