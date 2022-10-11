@@ -226,6 +226,9 @@ header .nav-link.disabled {
   margin-bottom: 0;
 }
 
+footer {
+  padding-top: 5rem;
+}
 footer .footer_top {
   background: #F7F7F7;
   padding-top: 5px;
@@ -260,77 +263,4 @@ footer .container .footer_learn, footer .container .footer_search, footer .conta
 }
 footer .container .footer_learn:hover, footer .container .footer_search:hover, footer .container .footer_view:hover, footer .container .footer_sign:hover {
   font-size: 17px;
-}
-.product {
-  padding-top: 46px;
-}
-.product .title {
-  text-align: center;
-  padding-bottom: 81px;
-}
-.product .title p {
-  font-size: 16px;
-  font-weight: 200;
-  color: #000000 !important;
-  line-height: 48.41px;
-}
-.product .card {
-  background-color: #F8F8F8;
-  border: none;
-}
-.product .card img {
-  width: 100%;
-  padding: 45px 57px 10px 57px;
-}
-.product .card .card-body {
-  padding-bottom: 13px;
-}
-.product .card .card-body h5 {
-  font-size: 24px;
-  font-weight: 300;
-  color: #000000 !important;
-  line-height: 29px;
-  margin-bottom: 8px;
-}
-.product .card .card-body p {
-  font-size: 20px;
-  font-weight: 300;
-  color: #CBC9C9 !important;
-  line-height: 24.2px;
-}
-.product .card .card-footer {
-  border: none;
-}
-.product .card .card-footer .left {
-  width: 53%;
-  text-align: center;
-  height: 64px;
-  background-color: #E1B067;
-}
-.product .card .card-footer .left a {
-  font-size: 16px;
-  font-weight: 200;
-  color: #000000 !important;
-  line-height: 64px;
-  text-decoration: none;
-  transition: all 1s;
-}
-.product .card .card-footer .left:hover a {
-  font-size: 20px;
-  font-weight: 200;
-  color: #000000 !important;
-  line-height: 64px;
-}
-.product .card .card-footer .right {
-  width: 47%;
-  text-align: center;
-  height: 64px;
-  background-color: #DEDDDC;
-}
-.product .card .card-footer .right p {
-  font-size: 16px;
-  font-weight: 600;
-  color: #000000 !important;
-  line-height: 64px;
-  margin-bottom: 0;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,85 @@
+.register {
+    background-color: $color4;
+    h2 {
+        padding: $mg3 ;
+    }
+
+    input {
+        // width: 100%;
+        // height: 40px;
+        width: 90%;
+        font-size: 30px;
+        font-weight: 400;
+        color: #000;
+        line-height: 36px;
+        border: none;
+        outline: none;
+        border-bottom: 5px solid #ae18e2;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        background-color: $color4;
+    }
+
+    label {
+        @include text($fs4, $fw4, $color1, $lh3);
+    }
+
+    .gender {
+        @extend label;
+        padding-right: $pd2 ;
+    }
+
+    input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: $color1;
+        @include text($fs4, $fw4, $color1, $lh3);
+    }
+
+    input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $color1;
+        @include text($fs4, $fw4, $color1, $lh3);
+    }
+
+    input:-ms-input-placeholder {
+        /* IE 10+ */
+        color: $color1;
+        @include text($fs4, $fw4, $color1, $lh3);
+    }
+
+    input:-moz-placeholder {
+        /* Firefox 18- */
+        color: $color1;
+        @include text($fs4, $fw4, $color1, $lh3);
+    }
+
+    .reCheck {
+        margin-top: 40px;
+        align-items: center;
+        
+        .radio {
+            vertical-align: middle;
+            label{
+                justify-content: center;
+                align-items: center;
+                line-height: 1.5;
+                
+            }
+            input {
+                width: 65.42px;
+                height: 50px;
+                background-color: $color18 ;
+                justify-content: center;
+                align-items: center;
+                border-radius: 40%;
+            }
+        }
+    }
+    .btnTK{
+        margin-top: 85px;
+        @include wh(291px,50px);
+        background-color: $color19;
+        border: none;
+        @include text($fs4, $fw4, $color4, $lh3);   
+    }
+}
