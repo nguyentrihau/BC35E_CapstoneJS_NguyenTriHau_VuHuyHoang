@@ -12,15 +12,3 @@
     width: $width;
     height: $height;
 }
-@mixin borbot($width){
-    content: '';
-    display: block;
-    position: absolute;
-    width: $width;
-    height: 1px;
-    left: 6px;
-    top: 40px;
-    background: $color7 !important;
-    border: 1px solid $color1;
-
-}
