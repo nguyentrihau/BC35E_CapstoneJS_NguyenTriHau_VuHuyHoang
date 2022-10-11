@@ -165,6 +165,10 @@ header .nav-link.disabled {
   color: #000000 !important;
   line-height: 48.41px;
 }
+.product .card {
+  background-color: #F8F8F8;
+  border: none;
+}
 .product .card img {
   width: 100%;
   padding: 45px 57px 10px 57px;
@@ -269,6 +273,10 @@ footer .container .footer_learn:hover, footer .container .footer_search:hover, f
   font-weight: 200;
   color: #000000 !important;
   line-height: 48.41px;
+}
+.product .card {
+  background-color: #F8F8F8;
+  border: none;
 }
 .product .card img {
   width: 100%;
