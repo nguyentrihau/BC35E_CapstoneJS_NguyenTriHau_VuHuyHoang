@@ -51,15 +51,17 @@
 
             img {
                 position: absolute;
-                top: 50%;
-                left: 25%;
+                top: 0;
+                left: 7%;
                 transform: translate(-50%, -50%);
+                transform: rotateY(180deg);
             }
         }
 
         .carousel__right {
             width: 30%;
             padding-bottom: 120px;
+            padding-right: 10px;
 
             h2 {
                 @include text ($fs5, $fw3, $color1, $lh4);

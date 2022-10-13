@@ -37,7 +37,7 @@ function renderCarousel(arrProduct,id) {
         </div>
         <div class="carousel__right">
             <h2>${product.name}</h2>
-            <p>${product.description}</p>
+            <p>${product.description.length > 75? product.description.substr(0,75)+'...':product.description}</p>
             <a href="./_html/detail.html?productid=${product.id}">Buy now</a>
         </div>
     </div>

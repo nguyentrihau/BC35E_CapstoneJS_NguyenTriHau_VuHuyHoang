@@ -113,13 +113,15 @@ header .nav-link.disabled {
 }
 .carousel .carousel-item.active .carousel__left img {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 0;
+  left: 7%;
   transform: translate(-50%, -50%);
+  transform: rotateY(180deg);
 }
 .carousel .carousel-item.active .carousel__right {
   width: 30%;
   padding-bottom: 120px;
+  padding-right: 10px;
 }
 .carousel .carousel-item.active .carousel__right h2 {
   font-size: 40px;
