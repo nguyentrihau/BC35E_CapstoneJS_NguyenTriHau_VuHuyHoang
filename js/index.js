@@ -49,7 +49,7 @@ function renderCarousel(arrProduct,id) {
 
     document.getElementById(id).innerHTML = contentHTML;
 };
-function renderProduct(arrProduct,id,link) {
+function renderProduct(arrProduct,id) {
     var contentHTML = ``;
     for (var index = 0; index < arrProduct.length; index++) {
         var product = arrProduct[index];

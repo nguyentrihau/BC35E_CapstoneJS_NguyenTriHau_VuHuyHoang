@@ -81,9 +81,13 @@ header .nav-link.disabled {
   justify-content: center;
 }
 .carousel_detail .product_name .detail_img img {
+  position: absolute;
   display: block;
   max-width: 100%;
   height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .carousel_detail .product_name .detail_content {
   padding: 2px 140px 0;

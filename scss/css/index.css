@@ -112,8 +112,10 @@ header .nav-link.disabled {
   width: 70%;
 }
 .carousel .carousel-item.active .carousel__left img {
-  margin-left: 122px;
-  margin-bottom: 120px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 .carousel .carousel-item.active .carousel__right {
   width: 30%;
@@ -152,6 +154,24 @@ header .nav-link.disabled {
   transition: transform 0.8s ease;
 }
 
+@media only screen and (max-width: 876px) {
+  .carousel .carousel-inner {
+    height: 560px;
+  }
+  .carousel .carousel-item.active {
+    display: grid;
+  }
+  .carousel .carousel-item.active .carousel__left {
+    width: 100%;
+    height: 350px;
+  }
+  .carousel .carousel-item.active .carousel__left img {
+    width: 50%;
+  }
+  .carousel .carousel-item.active .carousel__right {
+    width: 100%;
+  }
+}
 .product {
   padding-top: 46px;
 }

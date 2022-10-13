@@ -9,9 +9,13 @@
                 justify-content: center;
                 // position: relative;
                 img {
+                    position: absolute;
                     display: block;
                     max-width: 100% ;
                     height: auto;
+                    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
                 }
             }
             .detail_content{
