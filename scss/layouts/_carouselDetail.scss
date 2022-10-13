@@ -7,14 +7,11 @@
                 height: 380px;
                 background: $color11;
                 justify-content: center;
-                position: relative;
+                // position: relative;
                 img {
                     display: block;
                     max-width: 100% ;
                     height: auto;
-                    position: absolute;
-                    top: 109px;
-                    left: 78px;
                 }
             }
             .detail_content{

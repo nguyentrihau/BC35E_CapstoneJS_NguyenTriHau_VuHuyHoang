@@ -89,3 +89,14 @@
         transition: transform 0.8s ease;
     }
 }
+// @include Responsive($SM){
+//     .carousel{
+//         .carousel-item.active{
+//             .carousel__left{
+//                 img{
+//                     max-width: 70%;
+//                 }
+//             }
+//         }
+//     }
+// }

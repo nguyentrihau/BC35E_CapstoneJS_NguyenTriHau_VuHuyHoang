@@ -79,15 +79,11 @@ header .nav-link.disabled {
   height: 380px;
   background: #F8F8F8;
   justify-content: center;
-  position: relative;
 }
 .carousel_detail .product_name .detail_img img {
   display: block;
   max-width: 100%;
   height: auto;
-  position: absolute;
-  top: 109px;
-  left: 78px;
 }
 .carousel_detail .product_name .detail_content {
   padding: 2px 140px 0;
@@ -167,6 +163,9 @@ header .nav-link.disabled {
 
 .product {
   padding-top: 46px;
+}
+.product .container_pr {
+  padding: 0px 46px 0px 99px;
 }
 .product .title {
   text-align: center;
