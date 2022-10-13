@@ -155,6 +155,9 @@ header .nav-link.disabled {
 .product {
   padding-top: 46px;
 }
+.product .container_pr {
+  padding: 0px 46px 0px 99px;
+}
 .product .title {
   text-align: center;
   padding-bottom: 81px;
