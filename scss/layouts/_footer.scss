@@ -1,0 +1,44 @@
+footer{
+    padding-top: $mg5;
+    .footer_top{
+        background: $color5;
+        padding-top: 5px;
+    }
+    .footer_bot{
+        background:$color17; 
+        padding: 20px 0;
+    }
+    .container{
+        
+        h4{
+            @include text($fs1, $fw6, $color1, $lh2);
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            @include text($fs6, $fw4, $color1, $lh7);
+            transition: all 0.5s ;
+            &:hover{
+                color:$color13 !important;
+            }
+        }
+        .footer_learn{
+            color: red !important;
+            transition: all 1s;
+            &:hover{
+                font-size: 17px;
+            }
+        }
+        .footer_sign{
+            @extend .footer_learn;
+        }
+        .footer_view{
+            @extend .footer_learn;
+        }
+        .footer_search{
+            @extend .footer_learn;
+        }
+    }
+}

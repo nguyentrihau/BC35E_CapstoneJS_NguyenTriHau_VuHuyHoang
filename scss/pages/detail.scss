@@ -1,0 +1,15 @@
+// HELPERS
+@import '../helper/variable';
+@import '../helper/mixin';
+
+// BASE
+@import '../base/reset';
+@import '../base/typography';
+
+//  COMPONENTS
+
+// LAYOUTS
+@import '../layouts/header';
+@import '../layouts/carouselDetail';
+@import '../layouts/product';
+@import '../layouts/footer';

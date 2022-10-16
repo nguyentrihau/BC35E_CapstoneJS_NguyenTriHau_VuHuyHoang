@@ -1,4 +1,7 @@
 .product {
+    .container_pr{
+        padding: 0px 46px 0px 99px;
+    }
     padding-top: 46px;
 
     .title {
@@ -13,6 +16,8 @@
 
 
     .card {
+        background-color: $color11;
+        border: none;
         img {
             width: 100%;
             padding: 45px 57px 10px 57px;
@@ -35,9 +40,15 @@
             border: none;
 
             .left {
+                
                 a {
                     @include text ($fs1, $fw2, $color1, $lh6);
                     text-decoration: none;
+                    transition: all 1s;
+                    
+                }
+                &:hover{
+                    a{@include text ($fs2, $fw2, $color1, $lh6);}
                 }
 
                 width: 53%;
