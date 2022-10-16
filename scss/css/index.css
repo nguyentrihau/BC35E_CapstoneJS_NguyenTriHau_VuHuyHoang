@@ -98,7 +98,7 @@ header .nav-link.disabled {
 }
 .carousel .carousel-item.active {
   height: 530px;
-  background-image: url("/images/image 6.png");
+  background-image: url("../../images/image 6.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
