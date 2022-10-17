@@ -39,10 +39,10 @@ function getApiDetail(){
 function renderDetail(product,id){
     
         var contentHTML =`
-        <div class="detail_img col-lg-4 col-md-6 ">
+        <div class="detail_img col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <img src="${product.image}" alt="...">
       </div>
-      <div class="detail_content col-lg-8 col-md-6">
+      <div class="detail_content col-lg-8 col-md-6 col-sm-12 col-xs-12">
         <h3>${product.name}</h3>
         <p>${product.description}</p>
         <h4>Available size</h4>

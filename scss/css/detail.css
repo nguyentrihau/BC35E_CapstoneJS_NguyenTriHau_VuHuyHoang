@@ -75,7 +75,7 @@ header .nav-link.disabled {
   margin-top: 58px;
 }
 .carousel_detail .product_name .detail_img {
-  width: 334px;
+  min-width: 330px;
   height: 380px;
   background: #F8F8F8;
   justify-content: center;

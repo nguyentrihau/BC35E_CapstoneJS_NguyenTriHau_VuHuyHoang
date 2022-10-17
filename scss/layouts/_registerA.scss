@@ -83,3 +83,17 @@
         @include text($fs4, $fw4, $color4, $lh3);   
     }
 }
+@include Responsive(MD) {
+    .register{
+        .btnTK{
+            @include wh(220px,50px);
+        }
+    }
+}
+@include Responsive(XS) {
+    .register{
+        .btnTK{
+            @include wh(150px,50px);
+        }
+    }
+}
