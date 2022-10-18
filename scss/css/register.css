@@ -71,6 +71,11 @@ header .nav-link.disabled {
   line-height: 24.2px;
 }
 
+@media only screen and (max-width: 480px) {
+  header .header__top {
+    width: fit-content;
+  }
+}
 .register {
   background-color: #FFFCFC;
 }

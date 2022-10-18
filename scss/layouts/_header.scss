@@ -56,3 +56,10 @@ header {
 
     }
 }
+@include Responsive(XS) {
+    header{
+        .header__top{
+            width: fit-content;
+        }
+    }
+}
